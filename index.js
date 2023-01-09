@@ -3,6 +3,7 @@ const primaryNav = document.querySelector(".primary-navigation");
 const PrimaryHeader = document.querySelector(".primary-header");
 
 navToggle.addEventListener("click", () => {
+  console.log("it is clicked")
   primaryNav.hasAttribute("data-visible")
     ? navToggle.setAttribute("aria-expanded", false)
     : navToggle.setAttribute("aria-expanded", true);
