@@ -146,7 +146,7 @@ p {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  background-image: url("/assets/images/icon-menu.svg");
+  background-image: url("assets/images/icon-menu.svg");
   background-position: center;
   background-repeat: none;
   background-size: cover;
